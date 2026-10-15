@@ -1,0 +1,13 @@
+{
+  "name": "linux-vm-viewer",
+  "version": "1.0.0",
+  "description": "noVNC WebSocket bridge para VMware Linux VM",
+  "main": "bridge-linux.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node bridge-linux.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

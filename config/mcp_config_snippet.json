@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "linux-vm-manager": {
+      "command": "node",
+      "args": [
+        "C:/caminho/para/linux-ai-computer-use-vm/mcp-server/server.mjs"
+      ],
+      "env": {
+        "VMX_PATH": "C:/caminho/para/Linux Diario.vmx",
+        "VMRUN_PATH": "C:/Program Files (x86)/VMware/VMware Workstation/vmrun.exe",
+        "VNC_PORT": "5957",
+        "VIEWER_PORT": "5994"
+      }
+    },
+    "linux-vnc": {
+      "command": "node",
+      "args": [
+        "C:/caminho/para/node_modules/@hrrrsn/mcp-vnc/dist/index.js"
+      ],
+      "env": {
+        "VNC_HOST": "127.0.0.1",
+        "VNC_PORT": "5957"
+      }
+    }
+  }
+}

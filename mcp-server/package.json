@@ -1,0 +1,15 @@
+{
+  "name": "linux-vm-manager-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server para controle autônomo de VM Linux via VMware e VNC",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@hrrrsn/mcp-vnc": "^0.1.0",
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "sharp": "^0.33.5"
+  }
+}

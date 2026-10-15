@@ -1,0 +1,20 @@
+# Máquinas Virtuais e Imagens (Arquivos Pesados)
+*.vmdk
+*.vmem
+*.vmsn
+*.nvram
+*.iso
+*.lck/
+*.log
+*.scoreboard
+
+# Dependências Node.js
+node_modules/
+package-lock.json
+
+# Sistema e IDE
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.idea/
